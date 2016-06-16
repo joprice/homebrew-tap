@@ -2,9 +2,10 @@
 
 set -eu
 
-version=$1
+project=$1
+version=$2
 
-url="https://github.com/joprice/dynamite/releases/download/v$version/dynamite-$version.zip"
+url="https://github.com/joprice/$project/releases/download/v$version/$project-$version.zip"
 
 curl -f -L -s "$url" | shasum -a 256
 
