@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+set -eu
+
+version=$1
+
+url="https://github.com/joprice/dynamite/releases/download/v$version/dynamite-$version.zip"
+
+curl -f -L -s "$url" | shasum -a 256
+
