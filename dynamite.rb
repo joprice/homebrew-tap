@@ -2,7 +2,7 @@ class Dynamite < Formula
   version = "0.1.4"
   homepage "https://github.com/joprice/dynamite"
   url "https://github.com/joprice/dynamite/releases/download/v#{version}/dynamite-#{version}.zip"
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  sha256 "117efe34cfaf06b457aa75842d6cbfb20af095cf09900081e21cd40b196833a7"
 
   def install
     libexec.install "lib"
